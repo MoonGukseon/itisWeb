@@ -1,0 +1,12 @@
+<Context>
+	<Resource auth="Container" 
+				driverClassNAme="com.mysql.jdbc.Driver" 
+				maxActive="500"
+				maxIdle="100" 
+				name="itis/jdbc" 
+				password="jun58967" 
+				type="javax.sql.Datasource" 
+				factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+				url="jdbc:mysql://localhost:3306/itis" 
+				username="tihola"/>
+</Context>
